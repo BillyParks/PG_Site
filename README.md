@@ -18,12 +18,14 @@ The primary goal of this website is to become a high-quality, trustworthy, and S
 * **HTML5:** For the basic structure of all pages.
 * **Tailwind CSS:** For all styling, included via a CDN link in each HTML file.
 * **GitHub Pages:** For hosting the static website.
+* **Google Analytics:** The GA tag lives in `analytics.html`, which each page fetches.
 
 ### File Structure
 
 The site is organized into category folders to keep the content neat and create clean URLs.
 / (root)
 |-- index.html           (The homepage)
+|-- analytics.html       (Google Analytics loader)
 |-- /accommodation/
 |   |-- best-family-stays.html
 |-- /food/
@@ -41,6 +43,7 @@ To maintain consistency and quality, all new articles are created using the foll
 3.  **Generate the Article:** Use our AI assistant to generate the complete, SEO-optimized HTML file for the article.
 4.  **Create the File:** Create a new `.html` file in the appropriate category folder (e.g., `/food/top-cafes.html`).
 5.  **Link the Article:** Edit the `index.html` homepage (or another relevant page) to add a link to the new article.
+6.  **Load Analytics:** Add a script that fetches `analytics.html` and inserts it into the `<head>` of the page. This ensures the Google Analytics tag is loaded.
 
 ### Project Roadmap & To-Do List
 
