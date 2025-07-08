@@ -20,6 +20,13 @@
             font-family: 'Inter', sans-serif;
         }
     </style>
+<script>
+fetch('analytics.html')
+  .then(response => response.text())
+  .then(html => {
+    document.head.insertAdjacentHTML('beforeend', html);
+  });
+</script>
 </head>
 <body class="bg-white">
 
