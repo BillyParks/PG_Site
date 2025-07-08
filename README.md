@@ -1,6 +1,6 @@
 # ParadiseGrove.com - A Travel Affiliate Website
 
-This repository contains all the files and articles for the unofficial travel guide to Burleigh Heads, Gold Coast, Australia. The website is built with simple HTML and Tailwind CSS and is hosted for free using GitHub Pages.
+This repository contains all the files and articles for the unofficial travel guide to Burleigh Heads, Gold Coast, Australia. The website is built with simple HTML and Tailwind CSS and is hosted using GitHub Pages with a custom domain.
 
 ---
 
@@ -8,6 +8,8 @@ This repository contains all the files and articles for the unofficial travel gu
 
 * **Live Site:** [https://www.paradisegrove.com](https://www.paradisegrove.com)
 * **GitHub Pages Mirror:** [https://billyparks.github.io/PG_Site/](https://billyparks.github.io/PG_Site/)
+  
+  The custom domain points directly to the GitHub Pages build. The mirror URL remains available for reference.
 
 ### Project Goal
 
@@ -44,7 +46,7 @@ To maintain consistency and quality, all new articles are created using the foll
 4.  **Create the File:** Create a new `.html` file in the appropriate category folder (e.g., `/food/top-cafes.html`).
 5.  **Link the Article:** Edit the `index.html` homepage (or another relevant page) to add a link to the new article.
 6.  **Load Analytics:** Add a script that fetches `analytics.html` and inserts it into the `<head>` of the page. This ensures the Google Analytics tag is loaded.
-7.  **Use Root-Relative Image Paths:** Reference images with paths starting at the site root, e.g., `/images/pic.jpg`, so they work on the custom domain.
+7.  **Use Root-Relative Paths:** Reference images and internal links starting at the site root (e.g., `/images/pic.jpg` or `/about.html`) so they work correctly on the custom domain.
 
 ### Project Roadmap & To-Do List
 
