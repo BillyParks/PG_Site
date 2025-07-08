@@ -6,8 +6,8 @@ This repository contains all the files and articles for the unofficial travel gu
 
 ### Project Links
 
-* **Live Site (Staging):** [https://billyparks.github.io/PG_Site/](https://billyparks.github.io/PG_Site/)
-* **Final Domain (Future):** [https://www.paradisegrove.com](https://www.paradisegrove.com)
+* **Live Site:** [https://www.paradisegrove.com](https://www.paradisegrove.com)
+* **GitHub Pages Mirror:** [https://billyparks.github.io/PG_Site/](https://billyparks.github.io/PG_Site/)
 
 ### Project Goal
 
@@ -44,6 +44,7 @@ To maintain consistency and quality, all new articles are created using the foll
 4.  **Create the File:** Create a new `.html` file in the appropriate category folder (e.g., `/food/top-cafes.html`).
 5.  **Link the Article:** Edit the `index.html` homepage (or another relevant page) to add a link to the new article.
 6.  **Load Analytics:** Add a script that fetches `analytics.html` and inserts it into the `<head>` of the page. This ensures the Google Analytics tag is loaded.
+7.  **Use Root-Relative Image Paths:** Reference images with paths starting at the site root, e.g., `/images/pic.jpg`, so they work on the custom domain.
 
 ### Project Roadmap & To-Do List
 
