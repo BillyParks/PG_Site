@@ -1,0 +1,6 @@
+# Site settings
+title: Paradise Grove
+description: "Your independent guide to the best of Burleigh Heads and the Gold Coast."
+
+# Build settings
+markdown: kramdown
