@@ -21,11 +21,11 @@
             font-family: 'Inter', sans-serif;
         }
         .hero-bg {
-            background-image: url('images/hero-background.jpg');
+            background-image: url('{{ site.baseurl }}/images/hero-background.jpg');
         }
     </style>
 <script>
-fetch('/analytics.html')
+fetch('{{ site.baseurl }}/analytics.html')
   .then(response => response.text())
   .then(html => {
     document.head.insertAdjacentHTML('beforeend', html);

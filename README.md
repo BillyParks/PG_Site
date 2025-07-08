@@ -46,7 +46,7 @@ To maintain consistency and quality, all new articles are created using the foll
 4.  **Create the File:** Create a new `.html` file in the appropriate category folder (e.g., `/food/top-cafes.html`).
 5.  **Link the Article:** Edit the `index.html` homepage (or another relevant page) to add a link to the new article.
 6.  **Load Analytics:** Add a script that fetches `analytics.html` and inserts it into the `<head>` of the page. This ensures the Google Analytics tag is loaded.
-7.  **Use Root-Relative Paths:** Reference images and internal links starting at the site root (e.g., `/images/pic.jpg` or `/about.html`) so they work correctly on the custom domain.
+7.  **Use Root-Relative Paths with `{{ site.baseurl }}`:** Reference images and internal links using the Jekyll `baseurl` variable (e.g., `{{ site.baseurl }}/images/pic.jpg` or `{{ site.baseurl }}/about.html`) so links work on GitHub Pages and the custom domain.
 
 ### Project Roadmap & To-Do List
 
